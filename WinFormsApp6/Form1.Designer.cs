@@ -35,10 +35,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.btn_right = new System.Windows.Forms.Button();
-            this.btn_center = new System.Windows.Forms.Button();
-            this.btn_left = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.btn_italic = new System.Windows.Forms.Button();
             this.btn_underline = new System.Windows.Forms.Button();
             this.btn_bold = new System.Windows.Forms.Button();
@@ -61,10 +57,6 @@
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.comboBox3);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.btn_right);
-            this.panel1.Controls.Add(this.btn_center);
-            this.panel1.Controls.Add(this.btn_left);
-            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btn_italic);
             this.panel1.Controls.Add(this.btn_underline);
             this.panel1.Controls.Add(this.btn_bold);
@@ -132,49 +124,6 @@
             this.label5.Size = new System.Drawing.Size(55, 25);
             this.label5.TabIndex = 11;
             this.label5.Text = "Color";
-            // 
-            // btn_right
-            // 
-            this.btn_right.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_right.Location = new System.Drawing.Point(514, 42);
-            this.btn_right.Name = "btn_right";
-            this.btn_right.Size = new System.Drawing.Size(35, 29);
-            this.btn_right.TabIndex = 10;
-            this.btn_right.Text = "R";
-            this.btn_right.UseVisualStyleBackColor = true;
-            this.btn_right.Click += new System.EventHandler(this.btn_right_Click);
-            // 
-            // btn_center
-            // 
-            this.btn_center.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_center.Location = new System.Drawing.Point(471, 42);
-            this.btn_center.Name = "btn_center";
-            this.btn_center.Size = new System.Drawing.Size(35, 29);
-            this.btn_center.TabIndex = 9;
-            this.btn_center.Text = "C";
-            this.btn_center.UseVisualStyleBackColor = true;
-            this.btn_center.Click += new System.EventHandler(this.btn_center_Click);
-            // 
-            // btn_left
-            // 
-            this.btn_left.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_left.Location = new System.Drawing.Point(426, 42);
-            this.btn_left.Name = "btn_left";
-            this.btn_left.Size = new System.Drawing.Size(35, 29);
-            this.btn_left.TabIndex = 8;
-            this.btn_left.Text = "L";
-            this.btn_left.UseVisualStyleBackColor = true;
-            this.btn_left.Click += new System.EventHandler(this.btn_left_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(439, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 25);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Alignment";
             // 
             // btn_italic
             // 
@@ -294,10 +243,6 @@
         private TextBox textBox2;
         private ComboBox comboBox3;
         private Label label5;
-        private Button btn_right;
-        private Button btn_center;
-        private Button btn_left;
-        private Label label4;
         private Button btn_italic;
         private Button btn_underline;
         private Button btn_bold;
